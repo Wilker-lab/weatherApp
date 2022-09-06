@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="OutLineInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-        <item name="boxCollapsedPaddingTop">0dp</item>
-        <item name="startIconTint">@color/black</item>
-        <item name="boxStrokeColor">@color/black</item>
-        <item name="boxStrokeErrorColor">@color/black</item>
+        <item name="startIconTint">@color/silver_chalice</item>
+        <item name="boxStrokeColor">@color/downy</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontFamily">@font/arvo</item>
+        <item name="boxStrokeErrorColor">@color/tawny_port</item>
         <item name="boxCornerRadiusBottomStart">15sp</item>
         <item name="boxCornerRadiusBottomEnd">15sp</item>
         <item name="boxCornerRadiusTopEnd">15sp</item>

@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="downy">#6ECF9E</color>
+    <color name="tawny_port">#732634</color>
+    <color name="silver_chalice">#A9A9A9</color>
 </resources>

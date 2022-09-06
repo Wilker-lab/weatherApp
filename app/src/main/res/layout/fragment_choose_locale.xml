@@ -13,15 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/big_margin"
         android:text="@string/title_choose_a_location"
-        android:textSize="26sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animation_location"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toTopOf="@+id/til_select_location"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,22 +33,26 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_select_location"
         style="@style/OutLineInputLayout"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".9"
         android:layout_height="wrap_content"
-        android:hint="City"
+        android:hint="@string/hint_city"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_choose_location">
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_location">
 
         <AutoCompleteTextView
             android:id="@+id/autoComplete_city"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="@font/arvo"
             android:inputType="none"
             android:labelFor="@id/til_select_location"
             android:singleLine="true"
-            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
             tools:text="Goiânia" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -57,11 +61,11 @@
         android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/downy"
         android:text="Search"
         android:textColor="@color/black"
-        android:backgroundTint="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/til_select_location" />
 
