@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Wilker/Documents/Programacao/Android/weatherApp/app/src/main/res/drawable/bg_button.xml" value="0.302" />
+        <entry key="..\:/Users/Wilker/Documents/Programacao/Android/weatherApp/app/src/main/res/drawable/rounded_drawable.xml" value="0.138" />
         <entry key="..\:/Users/Wilker/Documents/Programacao/Android/weatherApp/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
-        <entry key="..\:/Users/Wilker/Documents/Programacao/Android/weatherApp/app/src/main/res/layout/fragment_choose_locale.xml" value="0.23125" />
+        <entry key="..\:/Users/Wilker/Documents/Programacao/Android/weatherApp/app/src/main/res/layout/fragment_choose_locale.xml" value="0.33" />
+        <entry key="..\:/Users/Wilker/Documents/Programacao/Android/weatherApp/app/src/main/res/layout/view_progress_button.xml" value="0.328125" />
       </map>
     </option>
   </component>

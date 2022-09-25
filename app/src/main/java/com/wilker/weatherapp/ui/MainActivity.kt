@@ -1,7 +1,7 @@
 package com.wilker.weatherapp.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.wilker.weatherapp.R
 
 class MainActivity : AppCompatActivity() {
